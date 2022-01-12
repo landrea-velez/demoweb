@@ -8,7 +8,8 @@ import javax.persistence.Column;
 public class Persona {
     @Id
     private int idPersona;
-    @Column(name = "")
+
+    @Column(name = "nombre", length = 50)
     private String nombre;
 
     public int getIdPersona() {
